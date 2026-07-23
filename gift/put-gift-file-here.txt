@@ -1,0 +1,1 @@
+Replace this file with the real gift file, then update giftHref in script.js if the filename changes.

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1500" role="img" aria-labelledby="title desc">
+  <title id="title">Photo placeholder</title>
+  <desc id="desc">A warm placeholder image for a favorite memory.</desc>
+  <defs>
+    <linearGradient id="g" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#ecd2c8"/>
+      <stop offset=".52" stop-color="#f7ead8"/>
+      <stop offset="1" stop-color="#bfd6d1"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="1500" fill="url(#g)"/>
+  <circle cx="360" cy="430" r="130" fill="#b95962" opacity=".28"/>
+  <circle cx="805" cy="610" r="190" fill="#2c7473" opacity=".22"/>
+  <path d="M0 1050c210-140 393-176 548-108 132 58 222 168 356 197 101 22 199-7 296-87v448H0z" fill="#2c2522" opacity=".22"/>
+  <text x="600" y="760" text-anchor="middle" fill="#2c2522" font-family="Georgia, serif" font-size="76" font-weight="700">Your photo here</text>
+  <text x="600" y="840" text-anchor="middle" fill="#786d67" font-family="Arial, sans-serif" font-size="34">assets/photos/photo-1.svg</text>
+</svg>

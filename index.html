@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Question 1 | Four Years With You</title>
+    <meta
+      name="description"
+      content="A private anniversary page with memories, questions, and one final gift."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="question-page question-page--one">
+      <section class="question-hero" aria-labelledby="question-title">
+        <div class="question-hero__photo">
+          <img src="assets/photos/photo-1.svg" alt="A favorite memory together" />
+        </div>
+        <article
+          class="question-card"
+          data-question
+          data-step="0"
+          data-next="question-2.html"
+        >
+          <p class="eyebrow">Year four / Question 01</p>
+          <h1 id="question-title">Where did our story begin?</h1>
+          <p>
+            Some places stay with you because they quietly become the first page
+            of everything after.
+          </p>
+          <form class="unlock-form" autocomplete="off">
+            <label for="answer-1">Your answer</label>
+            <div class="answer-row">
+              <input
+                id="answer-1"
+                name="answer"
+                type="text"
+                placeholder="Type the answer"
+                required
+              />
+              <button class="icon-button" type="submit" aria-label="Check answer">
+                <span aria-hidden="true">-></span>
+              </button>
+            </div>
+            <p class="feedback" role="status"></p>
+          </form>
+          <a class="button button--primary reveal-action" href="question-2.html" hidden>
+            Next page
+          </a>
+        </article>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 960" role="img" aria-labelledby="title desc">
+  <title id="title">Photo placeholder</title>
+  <desc id="desc">A warm placeholder image for a shared memory.</desc>
+  <rect width="1200" height="960" fill="#f1dfd0"/>
+  <path d="M0 720c170-93 340-111 510-55 149 49 244 139 404 121 97-11 192-57 286-137v311H0z" fill="#b95962" opacity=".27"/>
+  <circle cx="875" cy="265" r="150" fill="#b98b3e" opacity=".25"/>
+  <text x="600" y="464" text-anchor="middle" fill="#2c2522" font-family="Georgia, serif" font-size="62" font-weight="700">Memory photo</text>
+  <text x="600" y="530" text-anchor="middle" fill="#786d67" font-family="Arial, sans-serif" font-size="30">Replace with your picture</text>
+</svg>
