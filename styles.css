@@ -341,15 +341,19 @@ img {
   width: min(980px, 100%);
   max-height: min(860px, calc(100vh - 2rem));
   display: grid;
+  grid-template-rows: auto auto minmax(0, 1fr);
   gap: 0.8rem;
   padding: 0.8rem;
   border: 1px solid var(--line-hot);
   background: #05070b;
   box-shadow: 0 0 70px rgba(77, 255, 197, 0.18);
+  overflow: hidden;
 }
 
 .lightbox__stage {
+  order: 3;
   min-height: 0;
+  max-height: 100%;
   overflow: auto;
   border: 1px solid var(--line);
   background:
@@ -385,6 +389,7 @@ img {
 }
 
 .lightbox__controls {
+  order: 2;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;

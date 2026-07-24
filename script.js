@@ -107,6 +107,8 @@ if (question) {
   revealAction?.addEventListener("click", (event) => {
     if (revealAction.getAttribute("aria-disabled") === "true") {
       event.preventDefault();
+      feedback.textContent = "ROUTE LOCKED: submit the correct access phrase first.";
+      input.focus();
     }
   });
 
@@ -131,6 +133,7 @@ if (question) {
       revealAction.classList.remove("button--locked");
       revealAction.classList.add("button--primary");
       revealAction.removeAttribute("aria-disabled");
+      revealAction.removeAttribute("tabindex");
       revealAction.textContent = isFinalStep ? "Download" : "Next page";
       revealAction.focus();
     }

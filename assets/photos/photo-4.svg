@@ -1,15 +1,21 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
-  <title id="title">Gift background placeholder</title>
-  <desc id="desc">A soft abstract background for the final gift section.</desc>
+  <title id="title">Encrypted clue placeholder</title>
+  <desc id="desc">A dark terminal-style placeholder for the final clue image.</desc>
   <defs>
     <linearGradient id="g" x1="0" x2="1" y1="0" y2="1">
-      <stop offset="0" stop-color="#733942"/>
-      <stop offset=".48" stop-color="#2c7473"/>
-      <stop offset="1" stop-color="#b98b3e"/>
+      <stop offset="0" stop-color="#05070b"/>
+      <stop offset=".48" stop-color="#0b1d25"/>
+      <stop offset="1" stop-color="#03120e"/>
     </linearGradient>
+    <pattern id="grid" width="72" height="72" patternUnits="userSpaceOnUse">
+      <path d="M72 0H0v72" fill="none" stroke="#4dffc5" stroke-opacity=".12" stroke-width="2"/>
+    </pattern>
   </defs>
   <rect width="1600" height="900" fill="url(#g)"/>
-  <circle cx="420" cy="310" r="190" fill="#fffaf4" opacity=".16"/>
-  <circle cx="1120" cy="615" r="260" fill="#fffaf4" opacity=".12"/>
-  <path d="M0 690c248-90 493-104 736-43 225 57 423 69 594 38 111-20 201-55 270-104v319H0z" fill="#2c2522" opacity=".28"/>
+  <rect width="1600" height="900" fill="url(#grid)"/>
+  <circle cx="420" cy="310" r="210" fill="#54d7ff" opacity=".14"/>
+  <circle cx="1120" cy="615" r="280" fill="#4dffc5" opacity=".12"/>
+  <path d="M0 690c248-90 493-104 736-43 225 57 423 69 594 38 111-20 201-55 270-104v319H0z" fill="#000000" opacity=".32"/>
+  <text x="800" y="430" text-anchor="middle" fill="#d7fff2" font-family="Consolas, monospace" font-size="62" font-weight="700">FINAL CLUE IMAGE</text>
+  <text x="800" y="502" text-anchor="middle" fill="#4dffc5" font-family="Consolas, monospace" font-size="30">replace with your picture</text>
 </svg>

@@ -1,9 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 960" role="img" aria-labelledby="title desc">
-  <title id="title">Photo placeholder</title>
-  <desc id="desc">A gentle placeholder image for another shared memory.</desc>
-  <rect width="1200" height="960" fill="#e6f0ec"/>
-  <path d="M0 235c157-75 304-82 441-21 118 53 202 137 346 134 130-3 268-77 413-222v834H0z" fill="#2c7473" opacity=".24"/>
-  <circle cx="330" cy="650" r="172" fill="#b95962" opacity=".21"/>
-  <text x="600" y="464" text-anchor="middle" fill="#2c2522" font-family="Georgia, serif" font-size="62" font-weight="700">Another favorite</text>
-  <text x="600" y="530" text-anchor="middle" fill="#786d67" font-family="Arial, sans-serif" font-size="30">Replace with your picture</text>
+  <title id="title">Encrypted clue placeholder</title>
+  <desc id="desc">A dark terminal-style placeholder for the third clue image.</desc>
+  <rect width="1200" height="960" fill="#04120f"/>
+  <path d="M0 235c157-75 304-82 441-21 118 53 202 137 346 134 130-3 268-77 413-222v834H0z" fill="#54d7ff" opacity=".14"/>
+  <circle cx="330" cy="650" r="188" fill="#4dffc5" opacity=".15"/>
+  <path d="M150 150h900v660H150z" fill="none" stroke="#54d7ff" stroke-opacity=".28" stroke-width="4" stroke-dasharray="12 14"/>
+  <text x="600" y="456" text-anchor="middle" fill="#d7fff2" font-family="Consolas, monospace" font-size="58" font-weight="700">CLUE IMAGE 03</text>
+  <text x="600" y="526" text-anchor="middle" fill="#4dffc5" font-family="Consolas, monospace" font-size="30">replace with your picture</text>
 </svg>
