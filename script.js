@@ -1,5 +1,5 @@
 const anniversaryConfig = {
-  giftHref: "gift/put-gift-file-here.txt",
+  giftHref: "gift/4yeargift.pdf",
   steps: [
     {
       answers: ["first place", "our first date", "the cafe"],
