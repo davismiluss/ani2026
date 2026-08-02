@@ -123,7 +123,7 @@ img {
   color: #f2fff9;
   font-family: "JetBrains Mono", Consolas, monospace;
   font-size: clamp(2.2rem, 7vw, 5.5rem);
-  line-height: 0.98;
+  line-height: 1.15;
   letter-spacing: 0;
   text-shadow:
     0 0 18px rgba(77, 255, 197, 0.24),
