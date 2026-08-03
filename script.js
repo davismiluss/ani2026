@@ -107,7 +107,7 @@ if (question) {
   revealAction?.addEventListener("click", (event) => {
     if (revealAction.getAttribute("aria-disabled") === "true") {
       event.preventDefault();
-      feedback.textContent = "ROUTE LOCKED: submit the correct access phrase first.";
+      feedback.textContent = "CEĻŠ SLĒGTS: sākumā ievadi pareizo kodu.";
       input.focus();
     }
   });
@@ -134,7 +134,7 @@ if (question) {
       revealAction.classList.add("button--primary");
       revealAction.removeAttribute("aria-disabled");
       revealAction.removeAttribute("tabindex");
-      revealAction.textContent = isFinalStep ? "Download" : "Next page";
+      revealAction.textContent = isFinalStep ? "Lejuplādēt" : "Nākamā lapa";
       revealAction.focus();
     }
   });
@@ -145,15 +145,15 @@ const createLightbox = () => {
   lightbox.className = "lightbox";
   lightbox.hidden = true;
   lightbox.innerHTML = `
-    <div class="lightbox__panel" role="dialog" aria-modal="true" aria-label="Image preview">
-      <button class="lightbox__close" type="button" aria-label="Close preview">x</button>
+    <div class="lightbox__panel" role="dialog" aria-modal="true" aria-label="Attēla priekšskatījums">
+      <button class="lightbox__close" type="button" aria-label="Aizvērt priekšskatījumu">x</button>
       <div class="lightbox__stage">
         <img alt="" />
       </div>
       <div class="lightbox__controls">
-        <button type="button" data-zoom="out">Zoom out</button>
-        <button type="button" data-zoom="reset">Reset</button>
-        <button type="button" data-zoom="in">Zoom in</button>
+        <button type="button" data-zoom="out">Attālināt</button>
+        <button type="button" data-zoom="reset">Atiestatīt</button>
+        <button type="button" data-zoom="in">Pietuvināt</button>
       </div>
     </div>
   `;
