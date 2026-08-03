@@ -3,12 +3,12 @@ const anniversaryConfig = {
   steps: [
     {
       answers: ["first place", "our first date", "the cafe"],
-      success: "ACCESS GRANTED: origin trace accepted.",
-      hint: "ACCESS DENIED: try the place, not the whole story.",
+      success: "PIEKĻUVE ATĻAUTA: pirmais kods atrasts.",
+      hint: "PIEKĻUVE LIEGTA: ieskaties kārtīgi un atrodi vārdu.",
       specificHints: [
         {
-          answers: ["home", "house", "apartment"],
-          hint: "Close emotionally, wrong coordinate. The system wants the first location.",
+          answers: ["lapas", "dēlis", "jubilejas", "jubilejas dēlis"],
+          hint: "Tā ir atšķirība, bet kāpēc šeit izskatās savādāk?.",
         },
         {
           answers: ["school", "university", "college"],
@@ -18,8 +18,8 @@ const anniversaryConfig = {
     },
     {
       answers: ["our song", "perfect", "can't help falling in love"],
-      success: "ACCESS GRANTED: audio key matched.",
-      hint: "ACCESS DENIED: enter the song title.",
+      success: "PIEKĻUVE ATĻAUTA: audio key matched.",
+      hint: "PIEKĻUVE LIEGTA: enter the song title.",
       specificHints: [
         {
           answers: ["shape of you", "ed sheeran"],
@@ -33,8 +33,8 @@ const anniversaryConfig = {
     },
     {
       answers: ["my love", "love", "baby"],
-      success: "ACCESS GRANTED: alias verified.",
-      hint: "ACCESS DENIED: think of the name I use all the time.",
+      success: "PIEKĻUVE ATĻAUTA: alias verified.",
+      hint: "PIEKĻUVE LIEGTA: think of the name I use all the time.",
       specificHints: [
         {
           answers: ["wife", "ani", "anita"],
@@ -48,8 +48,8 @@ const anniversaryConfig = {
     },
     {
       answers: ["2022", "twenty twenty two"],
-      success: "ACCESS GRANTED: payload unlocked.",
-      hint: "ACCESS DENIED: enter the year.",
+      success: "PIEKĻUVE ATĻAUTA: payload unlocked.",
+      hint: "PIEKĻUVE LIEGTA: enter the year.",
       specificHints: [
         {
           answers: ["2021", "2023", "2024"],
