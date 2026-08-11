@@ -17,7 +17,7 @@ const anniversaryConfig = {
       ]
     },
     {
-      answers: ["Manu, manu, MANU"],
+      answers: ["Manu", "manu", "MANU"],
       success: "PIEKĻUVE ATĻAUTA: otrais kods atrasts.",
       hint: "PIEKĻUVE LIEGTA: Dienu ir par daudz, gadu par maz.",
       specificHints: [
