@@ -2,62 +2,58 @@ const anniversaryConfig = {
   giftHref: "gift/4yeargift.pdf",
   steps: [
     {
-      answers: ["first place", "our first date", "the cafe"],
+      answers: ["sveicu", "Sveicu", "SVEICU"],
       success: "PIEKĻUVE ATĻAUTA: pirmais kods atrasts.",
-      hint: "PIEKĻUVE LIEGTA: ieskaties kārtīgi un atrodi vārdu.",
+      hint: "PIEKĻUVE LIEGTA: Ļauj attēlam palīdzēt Tev atrast atbildi.",
       specificHints: [
         {
           answers: ["lapas", "dēlis", "jubilejas", "jubilejas dēlis"],
           hint: "Tā ir atšķirība, bet kāpēc šeit izskatās savādāk?.",
         },
         {
-          answers: ["school", "university", "college"],
-          hint: "Education record detected, but this key is more personal.",
+          answers: ["veicus", "cuives", "sevicu", ],
+          hint: "Kas tas par vārdu?",
+        },
+      ]
+    },
+    {
+      answers: ["Manu, manu, MANU"],
+      success: "PIEKĻUVE ATĻAUTA: otrais kods atrasts.",
+      hint: "PIEKĻUVE LIEGTA: Dienu ir par daudz, gadu par maz.",
+      specificHints: [
+        {
+          answers: ["venonat", "Venonat"],
+          hint: "Malacis, atradi vārdu, bet ne atbildi",
+        },
+        {
+          answers: ["48", "48 mēneši"],
+          hint: "Kur šādu skaitli vēl vari atrast?",
         },
       ],
     },
     {
-      answers: ["our song", "perfect", "can't help falling in love"],
-      success: "PIEKĻUVE ATĻAUTA: audio key matched.",
-      hint: "PIEKĻUVE LIEGTA: enter the song title.",
+      answers: ["milo", "mīļo", "Mīļo", "Milo", "MĪĻO", "MILO"],
+      success: "PIEKĻUVE ATĻAUTA: trešais kods atrasts.",
+      hint: "PIEKĻUVE LIEGTA: Atbilde nav krāsa",
       specificHints: [
         {
-          answers: ["shape of you", "ed sheeran"],
-          hint: "Artist frequency detected. Narrow it down to the exact track.",
-        },
-        {
-          answers: ["wedding song", "love song"],
-          hint: "Category is too broad. The vault needs the title.",
+          answers: ["oranža"],
+          hint: "Gandrīz vai tuvu.",
         },
       ],
     },
     {
-      answers: ["my love", "love", "baby"],
-      success: "PIEKĻUVE ATĻAUTA: alias verified.",
-      hint: "PIEKĻUVE LIEGTA: think of the name I use all the time.",
+      answers: ["Spindzelite", "Spindzelīte", "spindzelite", "spindzelīte", "spindelīti", "spindzelīt", "Spindzelīt", "spindzelīt"],
+      success: "PIEKĻUVE ATĻAUTA: ceturtais kods atrasts.",
+      hint: "PIEKĻUVE LIEGTA: Skaitlis nav atbilde, bet tas palīdzēs to atrast.",
       specificHints: [
         {
-          answers: ["wife", "ani", "anita"],
-          hint: "Identity confirmed, but the alias key is softer than a name.",
+          answers: ["2022"],
+          hint: "Šo Tev būs jāievada kaut kur citur, lai atrastu pareizo atbildi.",
         },
         {
-          answers: ["darling", "sweetheart"],
-          hint: "Correct genre, wrong exact phrase.",
-        },
-      ],
-    },
-    {
-      answers: ["2022", "twenty twenty two"],
-      success: "PIEKĻUVE ATĻAUTA: payload unlocked.",
-      hint: "PIEKĻUVE LIEGTA: enter the year.",
-      specificHints: [
-        {
-          answers: ["2021", "2023", "2024"],
-          hint: "Nearby timestamp detected. Recheck the year the signal started.",
-        },
-        {
-          answers: ["four years", "4 years"],
-          hint: "Duration received. Convert the memory into a calendar year.",
+          answers: ["bite"],
+          hint: "Tuvu, bet gan jau zini, kas ir pareizā atbilde.",
         },
       ],
     },
