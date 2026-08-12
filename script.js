@@ -43,7 +43,7 @@ const anniversaryConfig = {
       ],
     },
     {
-      answers: ["Spindzelite", "Spindzelīte", "spindzelite", "spindzelīte", "spindelīti", "spindzelīt", "Spindzelīt", "spindzelīt"],
+      answers: ["Spindzelite", "Spindzelīte", "spindzelite", "spindzelīte", "spindzelīti", "spindzelīt", "Spindzelīt", "spindzelīt"],
       success: "PIEKĻUVE ATĻAUTA: ceturtais kods atrasts.",
       hint: "PIEKĻUVE LIEGTA: Skaitlis nav atbilde, bet tas palīdzēs to atrast.",
       specificHints: [
